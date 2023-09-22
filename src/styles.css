@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 0px 0px 10px;
+}
+::placeholder {
+  color: royalblue;
+}
+.Card {
+  background-color: red;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+textarea {
+  background-color: transparent;
+  color: white;
+  border: transparent;
+  outline: none;
+  resize: none;
+}
+textarea:focus {
+  border: transparent;
+  color: black;
+}
+.FootCard {
+  padding: 40px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.FootCard i {
+  cursor: pointer;
+}
+/* New Note */
+.newNote {
+  /* background-color: red; */
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.newNote textarea {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+}
+
+.newNote textarea:focus {
+  background-color: transparent;
+  color: black;
+}
+
+.newNote .FootCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+button {
+  border-radius: 20px;
+  border: transparent;
+  cursor: pointer;
+  color: teal;
+  box-shadow: inset -1px 1px 7px 4px #a58888;
+  padding: 5px 10px;
+}
+
+button:focus {
+  color: red;
+}
